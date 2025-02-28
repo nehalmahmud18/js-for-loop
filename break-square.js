@@ -3,7 +3,7 @@ let sum = 0;
 for(n = 1; n>0 ; n++){
     sum = sum+n;
     console.log(n)
-    if(sum>100){
+    if(n^2){
         break;
     }
 }
